@@ -1,0 +1,41 @@
+query GetProducts {
+  categoryList(filters: {ids: {eq: "2324" }}){
+    products{
+      total_count
+      items{
+        uid
+        sku
+        name
+        image{
+          url
+          label
+          position
+        }
+
+        price_range{
+          minimum_price{
+            regular_price{
+              value
+              currency
+            }
+            final_price{
+              value
+              currency
+            }
+          }
+          maximum_price{
+            regular_price{
+              value
+              currency
+            }
+            final_price{
+              value
+              currency
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

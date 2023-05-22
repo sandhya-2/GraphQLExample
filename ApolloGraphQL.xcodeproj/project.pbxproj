@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70779C70CD40B3D4709D5AC6 /* Pods_ApolloGraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA6D82BA30AAABA956E173 /* Pods_ApolloGraphQL.framework */; };
+		84FB2FB72A195B09000F7B9D /* ApolloGraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */; };
+		84FB2FB92A195B09000F7B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FB82A195B09000F7B9D /* ContentView.swift */; };
+		84FB2FBB2A195B0A000F7B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB2FBA2A195B0A000F7B9D /* Assets.xcassets */; };
+		84FB2FBE2A195B0A000F7B9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB2FBD2A195B0A000F7B9D /* Preview Assets.xcassets */; };
+		84FB2FC72A195DFA000F7B9D /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 84FB2FC62A195DFA000F7B9D /* Queries.graphql */; };
+		84FB2FC92A19640E000F7B9D /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 84FB2FC82A19640E000F7B9D /* schema.json */; };
+		84FB2FCC2A1968D5000F7B9D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FCB2A1968D5000F7B9D /* API.swift */; };
+		84FB2FCF2A196A5F000F7B9D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FCE2A196A5F000F7B9D /* Network.swift */; };
+		84FB2FD42A1A426A000F7B9D /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD32A1A426A000F7B9D /* APIEndPoints.swift */; };
+		84FB2FD62A1A45A9000F7B9D /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD52A1A45A9000F7B9D /* ProductViewModel.swift */; };
+		84FB2FD82A1A4D76000F7B9D /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */; };
+		84FB2FE52A1A9FFC000F7B9D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FE42A1A9FFC000F7B9D /* Model.swift */; };
+		84FB2FE72A1AA15C000F7B9D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FE62A1AA15C000F7B9D /* Repository.swift */; };
+		84FB2FEB2A1AAF4F000F7B9D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FEA2A1AAF4F000F7B9D /* NetworkError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30BA6D82BA30AAABA956E173 /* Pods_ApolloGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApolloGraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1C0420B49B69D770513FB /* Pods-ApolloGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloGraphQL.release.xcconfig"; path = "Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		84FB2FB32A195B09000F7B9D /* ApolloGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloGraphQLApp.swift; sourceTree = "<group>"; };
+		84FB2FB82A195B09000F7B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84FB2FBA2A195B0A000F7B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FB2FBD2A195B0A000F7B9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84FB2FC62A195DFA000F7B9D /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		84FB2FC82A19640E000F7B9D /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		84FB2FCB2A1968D5000F7B9D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = ApolloGraphQL/API.swift; sourceTree = SOURCE_ROOT; };
+		84FB2FCE2A196A5F000F7B9D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		84FB2FD32A1A426A000F7B9D /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		84FB2FD52A1A45A9000F7B9D /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		84FB2FE42A1A9FFC000F7B9D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84FB2FE62A1AA15C000F7B9D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		84FB2FEA2A1AAF4F000F7B9D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F1EAEE4C8F30BB70760B891E /* Pods-ApolloGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloGraphQL.debug.xcconfig"; path = "Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FB2FB02A195B09000F7B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70779C70CD40B3D4709D5AC6 /* Pods_ApolloGraphQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FB2FAA2A195B08000F7B9D = {
+			isa = PBXGroup;
+			children = (
+				84FB2FB52A195B09000F7B9D /* ApolloGraphQL */,
+				84FB2FB42A195B09000F7B9D /* Products */,
+				8D6481EAB991DEDB5135383D /* Pods */,
+				8BDB0B3F2168263911B1E29F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84FB2FB42A195B09000F7B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FB32A195B09000F7B9D /* ApolloGraphQL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FB2FB52A195B09000F7B9D /* ApolloGraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FD22A1A4236000F7B9D /* Networking */,
+				84FB2FC52A195DE3000F7B9D /* GraphQL */,
+				84FB2FD02A1A41FF000F7B9D /* View */,
+				84FB2FD12A1A421A000F7B9D /* ViewModel */,
+				84FB2FBA2A195B0A000F7B9D /* Assets.xcassets */,
+				84FB2FBC2A195B0A000F7B9D /* Preview Content */,
+				84FB2FE42A1A9FFC000F7B9D /* Model.swift */,
+				84FB2FE62A1AA15C000F7B9D /* Repository.swift */,
+			);
+			path = ApolloGraphQL;
+			sourceTree = "<group>";
+		};
+		84FB2FBC2A195B0A000F7B9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FBD2A195B0A000F7B9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84FB2FC52A195DE3000F7B9D /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FCB2A1968D5000F7B9D /* API.swift */,
+				84FB2FC82A19640E000F7B9D /* schema.json */,
+				84FB2FC62A195DFA000F7B9D /* Queries.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		84FB2FD02A1A41FF000F7B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FB82A195B09000F7B9D /* ContentView.swift */,
+				84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */,
+				84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84FB2FD12A1A421A000F7B9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FD52A1A45A9000F7B9D /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84FB2FD22A1A4236000F7B9D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84FB2FCE2A196A5F000F7B9D /* Network.swift */,
+				84FB2FD32A1A426A000F7B9D /* APIEndPoints.swift */,
+				84FB2FEA2A1AAF4F000F7B9D /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8BDB0B3F2168263911B1E29F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BA6D82BA30AAABA956E173 /* Pods_ApolloGraphQL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6481EAB991DEDB5135383D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAEE4C8F30BB70760B891E /* Pods-ApolloGraphQL.debug.xcconfig */,
+				40E1C0420B49B69D770513FB /* Pods-ApolloGraphQL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FB2FB22A195B09000F7B9D /* ApolloGraphQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FB2FC12A195B0A000F7B9D /* Build configuration list for PBXNativeTarget "ApolloGraphQL" */;
+			buildPhases = (
+				7E0BA468B88E4338D434CE28 /* [CP] Check Pods Manifest.lock */,
+				84FB2FCA2A19678D000F7B9D /* Generate Apollo GraphQL API */,
+				84FB2FAF2A195B09000F7B9D /* Sources */,
+				84FB2FB02A195B09000F7B9D /* Frameworks */,
+				84FB2FB12A195B09000F7B9D /* Resources */,
+				27B06520F1FA25FEBE6629C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApolloGraphQL;
+			productName = ApolloGraphQL;
+			productReference = 84FB2FB32A195B09000F7B9D /* ApolloGraphQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FB2FAB2A195B08000F7B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					84FB2FB22A195B09000F7B9D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 84FB2FAE2A195B08000F7B9D /* Build configuration list for PBXProject "ApolloGraphQL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FB2FAA2A195B08000F7B9D;
+			productRefGroup = 84FB2FB42A195B09000F7B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FB2FB22A195B09000F7B9D /* ApolloGraphQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FB2FB12A195B09000F7B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FB2FC92A19640E000F7B9D /* schema.json in Resources */,
+				84FB2FC72A195DFA000F7B9D /* Queries.graphql in Resources */,
+				84FB2FBE2A195B0A000F7B9D /* Preview Assets.xcassets in Resources */,
+				84FB2FBB2A195B0A000F7B9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B06520F1FA25FEBE6629C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0BA468B88E4338D434CE28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApolloGraphQL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FB2FCA2A19678D000F7B9D /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FB2FAF2A195B09000F7B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FB2FB92A195B09000F7B9D /* ContentView.swift in Sources */,
+				84FB2FCC2A1968D5000F7B9D /* API.swift in Sources */,
+				84FB2FD62A1A45A9000F7B9D /* ProductViewModel.swift in Sources */,
+				84FB2FE72A1AA15C000F7B9D /* Repository.swift in Sources */,
+				84FB2FE52A1A9FFC000F7B9D /* Model.swift in Sources */,
+				84FB2FCF2A196A5F000F7B9D /* Network.swift in Sources */,
+				84FB2FB72A195B09000F7B9D /* ApolloGraphQLApp.swift in Sources */,
+				84FB2FEB2A1AAF4F000F7B9D /* NetworkError.swift in Sources */,
+				84FB2FD82A1A4D76000F7B9D /* DetailScreen.swift in Sources */,
+				84FB2FD42A1A426A000F7B9D /* APIEndPoints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84FB2FBF2A195B0A000F7B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FB2FC02A195B0A000F7B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FB2FC22A195B0A000F7B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EAEE4C8F30BB70760B891E /* Pods-ApolloGraphQL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApolloGraphQL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enhanceit.ApolloGraphQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FB2FC32A195B0A000F7B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E1C0420B49B69D770513FB /* Pods-ApolloGraphQL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApolloGraphQL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enhanceit.ApolloGraphQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FB2FAE2A195B08000F7B9D /* Build configuration list for PBXProject "ApolloGraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FB2FBF2A195B0A000F7B9D /* Debug */,
+				84FB2FC02A195B0A000F7B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FB2FC12A195B0A000F7B9D /* Build configuration list for PBXNativeTarget "ApolloGraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FB2FC22A195B0A000F7B9D /* Debug */,
+				84FB2FC32A195B0A000F7B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FB2FAB2A195B08000F7B9D /* Project object */;
+}
