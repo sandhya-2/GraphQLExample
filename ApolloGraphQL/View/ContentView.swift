@@ -27,13 +27,9 @@ struct ContentView: View {
                             NavigationLink(destination: DetailScreen(id: product.uid, name: product.name ?? "", sku: product.sku ?? "", price: product.priceRange.minimumPrice.regularPrice.value ?? 0, currency: product.priceRange.minimumPrice.regularPrice.currency?.rawValue ?? "", imageURL: product.image?.url ?? "")) {
                                 Text(product.name ?? "")
                             }
-                            
                         }
-                        
                     }
-                    
                 }
-                
             }.onAppear{
                 viewModel.getProductList()
                 if viewModel.customError != nil {
@@ -43,7 +39,6 @@ struct ContentView: View {
                 }
                 
             }.navigationTitle("Product List")
-            
         }
         .padding()
     }

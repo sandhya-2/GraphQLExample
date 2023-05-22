@@ -19,7 +19,6 @@
 		84FB2FD42A1A426A000F7B9D /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD32A1A426A000F7B9D /* APIEndPoints.swift */; };
 		84FB2FD62A1A45A9000F7B9D /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD52A1A45A9000F7B9D /* ProductViewModel.swift */; };
 		84FB2FD82A1A4D76000F7B9D /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */; };
-		84FB2FE52A1A9FFC000F7B9D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FE42A1A9FFC000F7B9D /* Model.swift */; };
 		84FB2FEB2A1AAF4F000F7B9D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FEA2A1AAF4F000F7B9D /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		84FB2FD32A1A426A000F7B9D /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
 		84FB2FD52A1A45A9000F7B9D /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
-		84FB2FE42A1A9FFC000F7B9D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		84FB2FEA2A1AAF4F000F7B9D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		F1EAEE4C8F30BB70760B891E /* Pods-ApolloGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloGraphQL.debug.xcconfig"; path = "Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +80,6 @@
 				84FB2FD12A1A421A000F7B9D /* ViewModel */,
 				84FB2FBA2A195B0A000F7B9D /* Assets.xcassets */,
 				84FB2FBC2A195B0A000F7B9D /* Preview Content */,
-				84FB2FE42A1A9FFC000F7B9D /* Model.swift */,
 			);
 			path = ApolloGraphQL;
 			sourceTree = "<group>";
@@ -288,7 +285,6 @@
 				84FB2FB92A195B09000F7B9D /* ContentView.swift in Sources */,
 				84FB2FCC2A1968D5000F7B9D /* API.swift in Sources */,
 				84FB2FD62A1A45A9000F7B9D /* ProductViewModel.swift in Sources */,
-				84FB2FE52A1A9FFC000F7B9D /* Model.swift in Sources */,
 				84FB2FCF2A196A5F000F7B9D /* Network.swift in Sources */,
 				84FB2FB72A195B09000F7B9D /* ApolloGraphQLApp.swift in Sources */,
 				84FB2FEB2A1AAF4F000F7B9D /* NetworkError.swift in Sources */,
