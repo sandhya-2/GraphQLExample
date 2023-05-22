@@ -21,6 +21,7 @@ class ProductViewModel: ObservableObject {
                 DispatchQueue.main.async {
                     if let products = graphQLResult.data?.categoryList?.first??.products?.items?.compactMap({$0}) {
                         self.productList = products
+                        self.customError = nil
                     }
                 }
                 print("Success")

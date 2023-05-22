@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        NavigationStack(){            
+        NavigationStack(){
             VStack {
                 if viewModel.customError != nil {
                     ProgressView().alert(isPresented: $isErrorOccurred){
@@ -24,9 +24,8 @@ struct ContentView: View {
                     
                     List{
                         ForEach(viewModel.productList, id: \.uid){ product in
-                            NavigationLink(destination: DetailScreen(id: product.uid, name: product.name ?? "", sku: product.sku ?? "", price: product.priceRange.minimumPrice.regularPrice.value ?? 0, currency: product.priceRange.minimumPrice.regularPrice.currency?.rawValue ?? "", imageURL: product.image?.url ?? "")) {
-                                Text(product.name ?? "")
-                            }
+                            
+                            ProductRowView(id: product.uid, productName: product.name ?? "", sku: product.sku ?? "", price: product.priceRange.minimumPrice.regularPrice.value ?? 0, currency: product.priceRange.minimumPrice.regularPrice.currency?.rawValue ?? "", image: product.image?.url ?? "")
                         }
                     }
                 }

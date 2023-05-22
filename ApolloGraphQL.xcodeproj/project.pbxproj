@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70779C70CD40B3D4709D5AC6 /* Pods_ApolloGraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA6D82BA30AAABA956E173 /* Pods_ApolloGraphQL.framework */; };
+		84474DA92A1B729100BB0322 /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84474DA82A1B729100BB0322 /* ProductRowView.swift */; };
 		84FB2FB72A195B09000F7B9D /* ApolloGraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */; };
 		84FB2FB92A195B09000F7B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB2FB82A195B09000F7B9D /* ContentView.swift */; };
 		84FB2FBB2A195B0A000F7B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB2FBA2A195B0A000F7B9D /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		30BA6D82BA30AAABA956E173 /* Pods_ApolloGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApolloGraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E1C0420B49B69D770513FB /* Pods-ApolloGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloGraphQL.release.xcconfig"; path = "Target Support Files/Pods-ApolloGraphQL/Pods-ApolloGraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		84474DA82A1B729100BB0322 /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
 		84FB2FB32A195B09000F7B9D /* ApolloGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloGraphQLApp.swift; sourceTree = "<group>"; };
 		84FB2FB82A195B09000F7B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				84FB2FB82A195B09000F7B9D /* ContentView.swift */,
 				84FB2FB62A195B09000F7B9D /* ApolloGraphQLApp.swift */,
 				84FB2FD72A1A4D76000F7B9D /* DetailScreen.swift */,
+				84474DA82A1B729100BB0322 /* ProductRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				84FB2FCC2A1968D5000F7B9D /* API.swift in Sources */,
 				84FB2FD62A1A45A9000F7B9D /* ProductViewModel.swift in Sources */,
 				84FB2FCF2A196A5F000F7B9D /* Network.swift in Sources */,
+				84474DA92A1B729100BB0322 /* ProductRowView.swift in Sources */,
 				84FB2FB72A195B09000F7B9D /* ApolloGraphQLApp.swift in Sources */,
 				84FB2FEB2A1AAF4F000F7B9D /* NetworkError.swift in Sources */,
 				84FB2FD82A1A4D76000F7B9D /* DetailScreen.swift in Sources */,
