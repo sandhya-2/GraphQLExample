@@ -16,6 +16,9 @@ struct DetailScreen: View {
     var price: Double
     var currency: String
     var imageURL: String
+    var formattedPrice: String {
+        String(format: "%.2f", price)
+    }
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -47,7 +50,7 @@ struct DetailScreen: View {
                 .font(.subheadline)
                 .padding(5)
             HStack{
-                Text("£ \(price)")
+                Text("£ \(formattedPrice)")
                 Text("\(currency)")
             }.padding(.leading, 5)
             
