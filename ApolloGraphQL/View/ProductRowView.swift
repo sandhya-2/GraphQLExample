@@ -21,8 +21,7 @@ struct ProductRowView: View {
         NavigationLink(destination: DetailScreen(id: id, name: productName, sku: sku, price: price, currency: "", imageURL: image)) {
             Text(productName)
         }
-        Text(productName)
-        
+            
     }
 }
 
