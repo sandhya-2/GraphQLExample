@@ -53,8 +53,7 @@ struct DetailScreen: View {
                 Text("£ \(formattedPrice)")
                 Text("\(currency)")
             }.padding(.leading, 5)
-            
-                
+                            
             Spacer()
         }.padding(10)
         .navigationTitle("Product Detail")
