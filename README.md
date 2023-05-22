@@ -12,5 +12,6 @@ This application uses MVVM.
 
 |Product List|Product detail|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/15943310/233363807-fde43c6a-b906-484c-90cc-47b0a6d9adad.png" width="300" height="500"> |<img src="https://user-images.githubusercontent.com/15943310/233363907-d5bb134c-274d-442a-91e5-708889bd6ba0.png" width="300" height="500"> |
+|<img width="435" alt="ProductList" src="https://github.com/sandhya-2/GraphQLExample/assets/15943310/06c09193-cc27-4dd7-aab1-c60ed344a5e9"> | <img width="433" alt="ProductDetail" src="https://github.com/sandhya-2/GraphQLExample/assets/15943310/295fc541-5977-40c4-a10d-34e0e2411828"> |
+
 
